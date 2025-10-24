@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   FaMobile,
   FaEdit,
@@ -23,8 +22,6 @@ import {
 } from "react-icons/gi";
 
 const SocialInfluencers = () => {
-  const [setHoveredInfluencer] = useState(null);
-
   const influencers = [
     {
       name: "विशाल चौरसिया",
@@ -40,7 +37,7 @@ const SocialInfluencers = () => {
     },
     {
       name: "मोहित गौड़",
-      channel: "विज्ञानदर्शन",
+      channel: "विज्ञान दर्शन",
       icon: FaBrain,
       image: "/vigyan-darshan.png",
     },
@@ -172,8 +169,6 @@ const SocialInfluencers = () => {
               <div
                 key={index}
                 className="bg-white rounded-xl p-4 sm:p-6 shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-blue-300 group"
-                onMouseEnter={() => setHoveredInfluencer(index)}
-                onMouseLeave={() => setHoveredInfluencer(null)}
               >
                 <div className="text-center">
                   <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-blue-200 group-hover:border-blue-300 transition-colors">

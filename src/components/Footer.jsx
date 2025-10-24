@@ -93,7 +93,7 @@ const Footer = () => {
                 </div>
                 <div className="bg-gray-800 rounded-lg p-3">
                   <p className="font-semibold text-orange-300">सह-संयोजक</p>
-                  <p>मोहित विज्ञानदर्शन</p>
+                  <p>मोहित विज्ञान दर्शन</p>
                 </div>
               </div>
             </div>

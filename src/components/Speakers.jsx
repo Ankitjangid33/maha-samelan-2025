@@ -40,7 +40,7 @@ const Speakers = () => {
     },
     {
       name: "मोहित गौड़",
-      specialty: "विज्ञानदर्शन",
+      specialty: "विज्ञान दर्शन",
       image: "/vigyan-darshan.png",
     },
     {
@@ -201,7 +201,6 @@ const Speakers = () => {
     <section
       id="speakers"
       className="py-12 sm:py-16 bg-white"
-      role="region"
       aria-labelledby="speakers-heading"
     >
       <div className="container mx-auto px-4 sm:px-6">

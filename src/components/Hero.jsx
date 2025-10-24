@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   FaGlobe,
   FaCalendarAlt,
@@ -10,8 +9,6 @@ import {
 } from "react-icons/fa";
 
 const Hero = () => {
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-
   const handleScrollToSchedule = () => {
     const scheduleElement = document.getElementById("schedule");
     if (scheduleElement) {
@@ -182,7 +179,7 @@ const Hero = () => {
               <div className="flex items-center gap-2">
                 <FaUsers className="text-yellow-300" />
                 <span>
-                  <strong>सह-संयोजक:</strong> मोहित विज्ञानदर्शन
+                  <strong>सह-संयोजक:</strong> मोहित विज्ञान दर्शन
                 </span>
               </div>
             </div>

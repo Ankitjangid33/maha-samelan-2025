@@ -1,7 +1,5 @@
 import { useState } from "react";
 import {
-  FaHandshake,
-  FaUsers,
   FaBolt,
   FaHeart,
   FaLightbulb,
@@ -21,7 +19,7 @@ const Organizers = () => {
     },
     {
       text: "विज्ञान और धर्म के मेल से ही सच्चा ज्ञान प्राप्त होता है।",
-      author: "मोहित विज्ञानदर्शन",
+      author: "मोहित विज्ञान दर्शन",
     },
     {
       text: "The Youth Ignites - जहाँ विचार कर्म में बदलते हैं।",
@@ -53,67 +51,10 @@ const Organizers = () => {
   return (
     <section
       className="py-12 sm:py-16 bg-gradient-to-br from-amber-50 to-orange-50"
-      role="region"
       aria-labelledby="organizers-heading"
     >
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2
-              id="organizers-heading"
-              className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-3"
-            >
-              <FaHandshake className="text-orange-600" />
-              आयोजन समिति
-            </h2>
-            <p className="text-lg sm:text-xl text-gray-600">
-              महासम्मेलन के सफल आयोजन के लिए समर्पित टीम
-            </p>
-          </div>
-
-          {/* Organizers Cards */}
-          <div className="grid sm:grid-cols-2 gap-8 mb-12">
-            <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-orange-200 hover:shadow-xl transition-all duration-300 group">
-              <div className="text-center">
-                <div className="w-20 h-20 sm:w-24 sm:h-24 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform shadow-lg">
-                  <FaUsers className="text-white text-2xl sm:text-3xl" />
-                </div>
-                <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2">
-                  संयोजक
-                </h3>
-                <p className="text-2xl sm:text-3xl font-bold text-orange-600 mb-3">
-                  कृतेश आर्य
-                </p>
-                <p className="text-gray-600 mb-4">मुख्य आयोजन प्रमुख</p>
-                <div className="bg-orange-50 rounded-lg p-3">
-                  <p className="text-sm text-gray-700 italic">
-                    "युवाओं के सपनों को साकार करने का संकल्प"
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-amber-200 hover:shadow-xl transition-all duration-300 group">
-              <div className="text-center">
-                <div className="w-20 h-20 sm:w-24 sm:h-24 bg-gradient-to-r from-amber-500 to-amber-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform shadow-lg">
-                  <FaBolt className="text-white text-2xl sm:text-3xl" />
-                </div>
-                <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2">
-                  सह-संयोजक
-                </h3>
-                <p className="text-2xl sm:text-3xl font-bold text-amber-600 mb-3">
-                  मोहित विज्ञानदर्शन
-                </p>
-                <p className="text-gray-600 mb-4">सह-आयोजन प्रमुख</p>
-                <div className="bg-amber-50 rounded-lg p-3">
-                  <p className="text-sm text-gray-700 italic">
-                    "विज्ञान और धर्म के संगम का प्रवर्तक"
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Mission Statement */}
           <div className="bg-gradient-to-r from-orange-600 to-amber-600 rounded-2xl p-6 sm:p-8 text-white mb-12">
             <div className="text-center">

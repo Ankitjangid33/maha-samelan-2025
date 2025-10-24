@@ -211,7 +211,11 @@ const AllSpeakers = () => {
         category: "speaker",
         specialty: "अवतारवाद विशेषज्ञ",
       },
-      { name: "मोहित गौड़", category: "influencer", specialty: "विज्ञानदर्शन" },
+      {
+        name: "मोहित गौड़",
+        category: "influencer",
+        specialty: "विज्ञान दर्शन",
+      },
       { name: "मोक्षराज आर्य", category: "speaker", specialty: "संचालक" },
       { name: "मेधावनी गर्ग", category: "speaker", specialty: "नारी अधिकार" },
       {
