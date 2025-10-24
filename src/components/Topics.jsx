@@ -111,7 +111,6 @@ const Topics = () => {
     <section
       id="topics"
       className="py-12 sm:py-16 bg-gradient-to-br from-yellow-50 to-orange-50"
-      role="region"
       aria-labelledby="topics-heading"
     >
       <div className="container mx-auto px-4 sm:px-6">

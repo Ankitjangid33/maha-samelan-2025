@@ -11,7 +11,7 @@ import {
   FaMicroscope,
   FaFlag,
 } from "react-icons/fa";
-import { MdScience, MdFamilyRestroom } from "react-icons/md";
+
 import { GiEarthAmerica } from "react-icons/gi";
 
 const EventDetails = () => {
@@ -60,7 +60,6 @@ const EventDetails = () => {
   return (
     <section
       className="py-12 sm:py-16 bg-white"
-      role="region"
       aria-labelledby="event-details-heading"
     >
       <div className="container mx-auto px-4 sm:px-6">

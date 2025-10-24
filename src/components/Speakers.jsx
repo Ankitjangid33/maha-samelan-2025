@@ -200,35 +200,37 @@ const Speakers = () => {
   return (
     <section
       id="speakers"
-      className="py-12 sm:py-16 bg-white"
+      className="py-12 sm:py-12 md:py-16 lg:py-20 xl:py-24 bg-white"
       aria-labelledby="speakers-heading"
     >
       <div className="container mx-auto px-4 sm:px-6">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl xl:max-w-7xl 2xl:max-w-8xl mx-auto">
           <h2
             id="speakers-heading"
-            className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-4 flex items-center justify-center gap-3"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold text-center text-gray-800 mb-4 sm:mb-4 lg:mb-6 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-3 lg:gap-4"
           >
-            <FaMicrophone className="text-orange-600" />
-            हमारे सम्माननीय वक्ता और संचालक
+            <FaMicrophone className="text-orange-600 text-2xl sm:text-2xl lg:text-3xl xl:text-4xl" />
+            <span className="leading-tight">
+              हमारे सम्माननीय वक्ता और संचालक
+            </span>
           </h2>
-          <p className="text-lg sm:text-xl text-center text-gray-600 mb-12">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-center text-gray-600 mb-10 sm:mb-12 lg:mb-16 leading-relaxed px-2">
             देश-विदेश के प्रतिष्ठित विद्वान और विचारक
           </p>
 
           {/* Featured Speakers */}
-          <div className="mb-16">
-            <h3 className="text-xl sm:text-2xl font-bold text-center text-gray-800 mb-8">
+          <div className="mb-12 sm:mb-16">
+            <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-center text-gray-800 mb-8 sm:mb-8 lg:mb-12">
               मुख्य वक्ता
             </h3>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 sm:gap-4 md:gap-6">
               {speakers.slice(0, 16).map((speaker, index) => (
                 <div
                   key={index}
-                  className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-4 sm:p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-orange-200 group"
+                  className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-orange-200 group aspect-square"
                 >
-                  <div className="text-center">
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 rounded-full overflow-hidden border-4 border-orange-200 group-hover:border-orange-300 transition-colors">
+                  <div className="text-center h-full flex flex-col justify-center p-3 sm:p-4">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 mx-auto mb-2 sm:mb-3 rounded-full overflow-hidden border-2 border-orange-200 group-hover:border-orange-300 transition-colors flex-shrink-0">
                       <img
                         src={speaker.image || "/default-profile.svg"}
                         alt={`${speaker.name} की तस्वीर`}
@@ -236,10 +238,10 @@ const Speakers = () => {
                         loading="lazy"
                       />
                     </div>
-                    <h4 className="text-sm sm:text-lg font-semibold text-gray-800 mb-2 group-hover:text-orange-600 transition-colors">
+                    <h4 className="text-xs sm:text-sm md:text-base font-semibold text-gray-800 mb-1 sm:mb-2 group-hover:text-orange-600 transition-colors leading-tight line-clamp-2">
                       {speaker.name}
                     </h4>
-                    <p className="text-orange-600 font-medium text-xs sm:text-sm">
+                    <p className="text-orange-600 font-medium text-xs sm:text-sm leading-tight line-clamp-2">
                       {speaker.specialty}
                     </p>
                   </div>
@@ -249,33 +251,33 @@ const Speakers = () => {
           </div>
 
           {/* Categories */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 xl:gap-10 mb-12 lg:mb-16">
             {categories.map((category, categoryIndex) => (
               <div
                 key={categoryIndex}
-                className={`bg-gradient-to-br ${category.color} rounded-xl p-4 sm:p-6 shadow-lg hover:shadow-xl transition-all duration-300`}
+                className={`bg-gradient-to-br ${category.color} rounded-lg sm:rounded-xl lg:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-md hover:shadow-lg sm:hover:shadow-xl transition-all duration-300`}
               >
-                <div className="text-center mb-4">
-                  <div className="text-2xl sm:text-3xl mb-2 flex justify-center">
+                <div className="text-center mb-3 sm:mb-4 lg:mb-6">
+                  <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-2 sm:mb-3 lg:mb-4 flex justify-center">
                     <category.icon className="text-orange-600" />
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-gray-800 flex items-center justify-center gap-2">
-                    <FaUser className="text-orange-600 text-sm" />
+                  <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold text-gray-800 flex items-center justify-center gap-1 sm:gap-2 lg:gap-3">
+                    <FaUser className="text-orange-600 text-xs sm:text-sm lg:text-base xl:text-lg" />
                     {category.title}
                   </h3>
-                  <p className="text-sm text-gray-600 mt-1">
+                  <p className="text-xs sm:text-sm md:text-base lg:text-base xl:text-lg text-gray-600 mt-1 lg:mt-2">
                     {category.speakers.length} वक्ता
                   </p>
                 </div>
 
                 {/* Show first few speakers */}
-                <div className="space-y-2 mb-4">
+                <div className="space-y-1.5 sm:space-y-2 mb-3 sm:mb-4">
                   {category.speakers.slice(0, 3).map((speaker, index) => (
                     <div
                       key={index}
-                      className="bg-white rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow"
+                      className="bg-white rounded-md sm:rounded-lg p-2 sm:p-3 shadow-sm hover:shadow-md transition-shadow"
                     >
-                      <p className="text-gray-700 font-medium text-xs sm:text-sm">
+                      <p className="text-gray-700 font-medium text-xs sm:text-sm leading-tight">
                         {speaker}
                       </p>
                     </div>
@@ -286,17 +288,17 @@ const Speakers = () => {
                 {category.speakers.length > 3 && (
                   <button
                     onClick={() => toggleCategory(categoryIndex)}
-                    className="w-full flex items-center justify-center gap-2 text-orange-600 hover:text-orange-700 font-medium text-sm transition-colors"
+                    className="w-full flex items-center justify-center gap-1 sm:gap-2 text-orange-600 hover:text-orange-700 font-medium text-xs sm:text-sm py-2 px-3 rounded-md bg-white/50 hover:bg-white/70 transition-all duration-200 min-h-[44px] touch-manipulation"
                     aria-expanded={expandedCategory === categoryIndex}
                   >
                     {expandedCategory === categoryIndex ? (
                       <>
-                        <FaChevronUp /> कम दिखाएं
+                        <FaChevronUp className="text-xs" /> कम दिखाएं
                       </>
                     ) : (
                       <>
-                        <FaChevronDown /> {category.speakers.length - 3} और
-                        देखें
+                        <FaChevronDown className="text-xs" />{" "}
+                        {category.speakers.length - 3} और देखें
                       </>
                     )}
                   </button>
@@ -305,13 +307,13 @@ const Speakers = () => {
                 {/* Expanded Content */}
                 {expandedCategory === categoryIndex &&
                   category.speakers.length > 3 && (
-                    <div className="mt-4 space-y-2 animate-fadeInUp">
+                    <div className="mt-3 sm:mt-4 space-y-1.5 sm:space-y-2 animate-fadeInUp">
                       {category.speakers.slice(3).map((speaker, index) => (
                         <div
                           key={index}
-                          className="bg-white rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow"
+                          className="bg-white rounded-md sm:rounded-lg p-2 sm:p-3 shadow-sm hover:shadow-md transition-shadow"
                         >
-                          <p className="text-gray-700 font-medium text-xs sm:text-sm">
+                          <p className="text-gray-700 font-medium text-xs sm:text-sm leading-tight">
                             {speaker}
                           </p>
                         </div>
@@ -323,20 +325,20 @@ const Speakers = () => {
           </div>
 
           {/* Summary Card */}
-          <div className="bg-gradient-to-r from-orange-600 to-amber-600 rounded-2xl p-6 sm:p-8 text-white text-center">
-            <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+          <div className="bg-gradient-to-r from-orange-600 to-amber-600 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 text-white text-center">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4">
               80+ विशेषज्ञ वक्ता
             </h3>
-            <p className="text-lg sm:text-xl text-orange-100 mb-6">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-orange-100 mb-4 sm:mb-6 leading-relaxed">
               धर्म, विज्ञान, समाज, राष्ट्र और विश्व के विविध विषयों के विशेषज्ञ
             </p>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
               {categories.map((category, index) => (
-                <div key={index} className="bg-white/20 rounded-lg p-3">
-                  <div className="text-xl sm:text-2xl font-bold">
+                <div key={index} className="bg-white/20 rounded-lg p-2 sm:p-3">
+                  <div className="text-lg sm:text-xl md:text-2xl font-bold">
                     {category.speakers.length}
                   </div>
-                  <div className="text-xs sm:text-sm text-orange-200">
+                  <div className="text-xs sm:text-sm text-orange-200 leading-tight">
                     {category.title}
                   </div>
                 </div>

@@ -2,7 +2,6 @@ import { useState } from "react";
 import {
   FaCalendarAlt,
   FaClock,
-  FaMapMarkerAlt,
   FaUser,
   FaChevronDown,
   FaChevronUp,
@@ -535,7 +534,6 @@ const Schedule = () => {
     <section
       id="schedule"
       className="py-12 sm:py-16 bg-gray-50"
-      role="region"
       aria-labelledby="schedule-heading"
     >
       <div className="container mx-auto px-4 sm:px-6">

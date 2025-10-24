@@ -3,6 +3,17 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
     extend: {
+      screens: {
+        xs: "475px",
+        "2xl": "1536px",
+        "3xl": "1920px",
+        "4xl": "2560px",
+      },
+      maxWidth: {
+        "8xl": "88rem",
+        "9xl": "96rem",
+        "10xl": "104rem",
+      },
       fontFamily: {
         devanagari: ["Noto Sans Devanagari", "Inter", "sans-serif"],
         inter: ["Inter", "sans-serif"],

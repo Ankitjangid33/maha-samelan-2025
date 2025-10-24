@@ -26,7 +26,7 @@ const Footer = () => {
     const targetElement = document.getElementById(targetId);
 
     if (targetElement) {
-      const offsetTop = targetElement.offsetTop - 80;
+      const offsetTop = targetElement.offsetTop - 60; // Account for smaller mobile header
       window.scrollTo({
         top: offsetTop,
         behavior: "smooth",
