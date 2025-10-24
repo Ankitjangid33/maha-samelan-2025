@@ -72,6 +72,12 @@ const SocialInfluencers = () => {
       image: "/gemes-of-bollywood.png",
     },
     {
+      name: "अजीत भारती",
+      channel: "Ajeet Bharti",
+      icon: GiMicroscope,
+      image: "/ajeet-bharti.jpeg",
+    },
+    {
       name: "स्वाति गोयल शर्मा",
       channel: "Gems of Bollywood",
       icon: FaTheaterMasks,
@@ -130,6 +136,12 @@ const SocialInfluencers = () => {
       channel: "सनातन संचयन",
       icon: GiMicroscope,
       image: "/sarthak-mahajan.jpg",
+    },
+    {
+      name: "संदीपन रॉय",
+      channel: "Rishi Mantavya",
+      icon: GiMicroscope,
+      image: "/Vedveer Arya.png",
     },
   ];
 
