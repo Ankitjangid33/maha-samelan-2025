@@ -93,7 +93,7 @@ const SocialInfluencers = () => {
       name: "छवि सनातनी",
       channel: "Chhavi Sanatani",
       icon: GiLotusFlower,
-      image: "/chavi-sanatani.png",
+      image: "/chavi-sanatani.jpg",
     },
     {
       name: "कार्तिक यादव",
@@ -118,6 +118,18 @@ const SocialInfluencers = () => {
       channel: "ऋषि उवाच",
       icon: GiWizardStaff,
       image: "/rishi-uvach.png",
+    },
+    {
+      name: "संजय सिंह",
+      channel: "Desi Tarzan official",
+      icon: GiMicroscope,
+      image: "/sanjay-sing.png",
+    },
+    {
+      name: "सार्थक महाजन",
+      channel: "सनातन संचयन",
+      icon: GiMicroscope,
+      image: "/sarthak-mahajan.jpg",
     },
   ];
 

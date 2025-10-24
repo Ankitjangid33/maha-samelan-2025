@@ -3,12 +3,8 @@ import {
   FaMicrophone,
   FaChevronDown,
   FaChevronUp,
-  FaUser,
-  FaGraduationCap,
   FaUsers,
-  FaUserGraduate,
 } from "react-icons/fa";
-import { GiMeditation } from "react-icons/gi";
 
 const Speakers = () => {
   const [expandedCategory, setExpandedCategory] = useState(null);
@@ -24,10 +20,11 @@ const Speakers = () => {
       image: "/AcharyaAnkurArya.jpg",
     },
     {
-      name: "डॉ. महिम तिवारी",
-      specialty: "इतिहास एवं संस्कृति",
-      image: "/mahim-tiwari.png",
+      name: "संजय कुमार",
+      specialty: " वैदिक विद्वान",
+      image: "/sanjayji.png",
     },
+
     {
       name: "विशाल चौरसिया",
       specialty: "Hyper Quest",
@@ -44,6 +41,11 @@ const Speakers = () => {
       image: "/vigyan-darshan.png",
     },
     {
+      name: "डॉ. रामनाथ झा",
+      specialty: "अद्वैत वेदांत",
+      image: "/dr.ramnath-jha.png",
+    },
+    {
       name: "संदीप आर्य",
       specialty: "Om Aryavart",
       image: "/sandeep-arya.png",
@@ -58,16 +60,26 @@ const Speakers = () => {
       specialty: "Ankityadav Writes",
       image: "/ankit-yadav.png",
     },
+    {
+      name: "डॉ. विवेक आर्य",
+      specialty: "वैदिक विद्वान",
+      image: "/dr-vivek-arya.jpg",
+    },
     { name: "आर्यवीरा", specialty: "aaryaveera", image: "/aryaveera.png" },
     {
       name: "छवि सनातनी",
       specialty: "Chhavi Sanatani",
-      image: "/chavi-sanatani.png",
+      image: "/chavi-sanatani.jpg",
     },
     {
       name: "कार्तिक यादव",
       specialty: "Kartik Decoded",
       image: "/kartik-decoded.png",
+    },
+    {
+      name: "डॉ. महिम तिवारी",
+      specialty: "इतिहास एवं संस्कृति",
+      image: "/mahim-tiwari.png",
     },
     {
       name: "लक्ष्य लकेय",
@@ -89,6 +101,21 @@ const Speakers = () => {
       name: "डॉ. विवेक आर्य",
       specialty: "आर्य समाज इतिहास",
       image: "/dr.vivek-arya.png",
+    },
+    {
+      name: "डॉ. रामनाथ झा",
+      specialty: "संस्कृत विशेषज्ञ",
+      image: "/dr.ramnath-jha.png",
+    },
+    {
+      name: "नया वक्ता 1",
+      specialty: "विशेषज्ञता 1",
+      image: "/speaker1.png",
+    },
+    {
+      name: "नया वक्ता 2",
+      specialty: "विशेषज्ञता 2",
+      image: "/speaker2.png",
     },
     { name: "स्वामी ओमानन्द परिव्राजक", specialty: "धर्म प्रचारक" },
     { name: "डॉ. गोविन्द मौर्य", specialty: "पुरातत्व विशेषज्ञ" },
@@ -141,28 +168,32 @@ const Speakers = () => {
 
   const categories = [
     {
-      title: "आचार्यगण",
+      title: "",
       speakers: acharyas,
       color: "from-yellow-50 to-orange-50",
-      icon: FaGraduationCap,
+      icon: FaUsers,
     },
     {
-      title: "संन्यासी गण",
+      title: "",
       speakers: swamis,
       color: "from-orange-50 to-amber-50",
-      icon: GiMeditation,
+      icon: FaUsers,
     },
     {
-      title: "विद्वद्गण",
+      title: "",
       speakers: doctors,
       color: "from-amber-50 to-yellow-50",
-      icon: FaUserGraduate,
+      icon: FaUsers,
     },
     {
-      title: "अन्य वक्ता",
+      title: "",
       speakers: [
         "तितिक्षा आर्या",
-        "आयुषि राणा",
+        "वेदवीर आर्य",
+        "डॉ. आयुषी राणा",
+        "सांदिपन रॉय",
+        "सार्थक महाजन",
+        "प्रियांशु सेठ",
         "नीतिका निगम",
         "मेधावनी गर्ग",
         "छवि आर्या",
@@ -175,12 +206,10 @@ const Speakers = () => {
         "दयानन्द शास्त्री",
         "सुन्दर आर्य",
         "सतीश सक्सेना",
-        "सार्थक महाजन",
         "निर्भय आर्य",
         "आकाश विद्यार्थी",
         "कुमार उत्कर्ष",
         "अखिल तनेजा",
-        "सांदिपन रॉय",
         "तुफैल चतुर्वेदी",
         "अमित किल्लोर",
         "प्रीतम आर्य",
@@ -189,7 +218,6 @@ const Speakers = () => {
         "संदीप वेदालङ्कार",
         "रोहित आर्य",
         "अमरजीत विद्यार्थी",
-        "वेदवीर आर्य",
         "विठोबा आचार्य",
       ],
       color: "from-green-50 to-teal-50",
@@ -224,7 +252,7 @@ const Speakers = () => {
               मुख्य वक्ता
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 sm:gap-4 md:gap-6">
-              {speakers.slice(0, 16).map((speaker, index) => (
+              {speakers.slice(0, 18).map((speaker, index) => (
                 <div
                   key={index}
                   className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-orange-200 group aspect-square"
@@ -238,10 +266,10 @@ const Speakers = () => {
                         loading="lazy"
                       />
                     </div>
-                    <h4 className="text-xs sm:text-sm md:text-base font-semibold text-gray-800 mb-1 sm:mb-2 group-hover:text-orange-600 transition-colors leading-tight line-clamp-2">
+                    <h4 className="text-xs sm:text-sm md:text-base font-semibold text-gray-800 mb-1 sm:mb-2 group-hover:text-orange-600 transition-colors leading-tight">
                       {speaker.name}
                     </h4>
-                    <p className="text-orange-600 font-medium text-xs sm:text-sm leading-tight line-clamp-2">
+                    <p className="text-orange-600 font-medium text-xs sm:text-sm leading-tight">
                       {speaker.specialty}
                     </p>
                   </div>
@@ -262,12 +290,11 @@ const Speakers = () => {
                     <category.icon className="text-orange-600" />
                   </div>
                   <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold text-gray-800 flex items-center justify-center gap-1 sm:gap-2 lg:gap-3">
-                    <FaUser className="text-orange-600 text-xs sm:text-sm lg:text-base xl:text-lg" />
                     {category.title}
                   </h3>
-                  <p className="text-xs sm:text-sm md:text-base lg:text-base xl:text-lg text-gray-600 mt-1 lg:mt-2">
+                  {/* <p className="text-xs sm:text-sm md:text-base lg:text-base xl:text-lg text-gray-600 mt-1 lg:mt-2">
                     {category.speakers.length} वक्ता
-                  </p>
+                  </p> */}
                 </div>
 
                 {/* Show first few speakers */}
