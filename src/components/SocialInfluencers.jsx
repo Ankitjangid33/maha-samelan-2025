@@ -23,7 +23,7 @@ import {
 } from "react-icons/gi";
 
 const SocialInfluencers = () => {
-  const [ setHoveredInfluencer] = useState(null);
+  const [setHoveredInfluencer] = useState(null);
 
   const influencers = [
     {
@@ -121,12 +121,6 @@ const SocialInfluencers = () => {
       channel: "ऋषि उवाच",
       icon: GiWizardStaff,
       image: "/rishi-uvach.png",
-    },
-    {
-      name: "हर्षिता मानकर",
-      channel: "आर्यवीरा",
-      icon: GiCrossedSwords,
-      image: "/aryaveera.png",
     },
   ];
 
