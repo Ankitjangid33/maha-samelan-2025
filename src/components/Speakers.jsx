@@ -290,6 +290,11 @@ const Speakers = () => {
       image: "/shitala -arya.jpg",
     },
     {
+      name: "संदीप वेदालंकार",
+      specialty: "वैदिक विद्वान",
+      image: "/संदीप-ved.jpg",
+    },
+    {
       name: "आचार्या आर्याशा आर्या",
       specialty: "युवा वैदिक विदुषी",
       image: "/aryasha.jpg",
@@ -391,7 +396,7 @@ const Speakers = () => {
     },
     {
       name: "विठोबा आचार्य",
-      specialty: "विदेशी विद्वान",
+      specialty: "दार्शनिक विद्वान",
       image: "/default-profile.svg",
     },
     {
@@ -415,17 +420,12 @@ const Speakers = () => {
       image: "/default-profile.svg",
     },
     {
-      name: "जयादित्य चक्रवरती",
+      name: "जयादित्य चक्रवर्ती",
       specialty: "युवा प्रचारक",
       image: "/chakravarti.jpg",
     },
     {
       name: "महेंद्र आर्य",
-      specialty: "-------",
-      image: "/default-profile.svg",
-    },
-    {
-      name: "संदीप वेदालंकार",
       specialty: "-------",
       image: "/default-profile.svg",
     },
@@ -518,7 +518,6 @@ const Speakers = () => {
         "प्रीतम आर्य",
         "संजय सिंह",
         "मोक्षराज आर्य",
-        "संदीप वेदालङ्कार",
         "अमरजीत विद्यार्थी",
       ],
       color: "from-green-50 to-teal-50",

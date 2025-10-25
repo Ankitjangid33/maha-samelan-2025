@@ -17,6 +17,7 @@ const Schedule = () => {
       date: "30 अक्टूबर 2025",
       sessions: [
         {
+          sessionNo: 1,
           time: "9:00 AM – 12:30 PM",
           title: "आस्तिक और नास्तिक – क्या मनुष्य को धर्म की आवश्यकता है?",
           moderator: "मोक्षराज आर्य",
@@ -74,6 +75,7 @@ const Schedule = () => {
           ],
         },
         {
+          sessionNo: 2,
           time: "01:00 PM – 02:30 PM",
           title: "सत्यार्थ प्रकाश और विविध मत समीक्षा",
           moderator: "संदीप वेदालङ्कार",
@@ -117,6 +119,7 @@ const Schedule = () => {
           ],
         },
         {
+          sessionNo: 3,
           time: "2:45 PM – 4:45 PM",
           title: "सनातन धर्म की चुनौतियाँ",
           moderator: "अखिल तनेजा",
@@ -148,12 +151,14 @@ const Schedule = () => {
           ],
         },
         {
+          sessionNo: 4,
           time: "5:00 PM – 6:30 PM",
           title: "मंच चर्चा – वेदों में विज्ञान",
           moderator: "विशाल चौरसिया (The Hyper Quest)",
           speakers: ["कार्तिक अय्यर", "मोहित गौड़", "अंकित यादव", "संदीप आर्य"],
         },
         {
+          sessionNo: 5,
           time: "7:00 PM – 8:45 PM",
           title: "शास्त्र चर्चा – आस्तिक और नास्तिक के मध्य चर्चा",
           moderator: "विशाल चौरसिया",
@@ -166,6 +171,7 @@ const Schedule = () => {
           ],
         },
         {
+          sessionNo: 6,
           time: "9:00 PM – 10:30 PM",
           title: "मंच चर्चा – क्या सनातन धर्म जातिवादी है?",
           moderator: "कार्तिक डिकोडेड",
@@ -178,16 +184,17 @@ const Schedule = () => {
       date: "31 अक्टूबर 2025",
       sessions: [
         {
+          sessionNo: 1,
           time: "8:30 AM – 11:30 AM",
           title:
             "वैदिक नारीवाद – नारी की समानता और स्वतंत्रता (Vaidik Feminism)",
           moderator: "मेधावनी गर्ग",
           speakers: [
+            "आर्यवीरा",
             "तितिक्षा आर्या",
             "छवि सनातनी",
-            "आयुषि राणा",
+            "आयुषी राणा",
             "नीतिका निगम",
-            "आर्यवीरा",
             "आचार्य आर्याशा",
             "डॉ. प्रियंका",
             "स्वाति गोयल शर्मा",
@@ -204,7 +211,7 @@ const Schedule = () => {
             },
             {
               topic: "गुरुकुल में पढ़ी नारी: दायित्व एवं भविष्य",
-              speaker: "आयुषि राणा",
+              speaker: "डॉ. आयुषि राणा",
             },
             {
               topic: "नारी की वैवाहिक दायित्वों के प्रति उदासीनता",
@@ -229,25 +236,30 @@ const Schedule = () => {
             { topic: "सुलभा–जनक संवाद का महत्व", speaker: "आचार्या शीतल" },
           ],
         },
+
         {
-          time: "3:15 PM – 4:45 PM",
-          title: "बॉडी निर्माण और स्टंट प्रदर्शन",
-          moderator: "कार्तिक अय्यर",
-          speakers: ["प्रीतम आर्य (आदिकाल आर्य)", "संजय सिंह (देशी टार्जन)"],
-        },
-        {
-          time: "5:00 PM – 6:30 PM",
+          sessionNo: 2,
+          time: "11:30 aM – 01:30 PM",
           title: "Open House with Acharya Agnivrat",
           moderator: "मोहित गौड, संदीप आर्य",
           speakers: ["आचार्य अग्निव्रत नैष्ठिक"],
         },
         {
+          sessionNo: 3,
+          time: "5:00 PM – 6:30 PM",
+          title: "बॉडी निर्माण और स्टंट प्रदर्शन",
+          moderator: "कार्तिक अय्यर",
+          speakers: ["प्रीतम आर्य (आदिकाल आर्य)", "संजय सिंह (देशी टार्जन)"],
+        },
+        {
+          sessionNo: 4,
           time: "7:00 PM – 8:30 PM",
           title: "Open House with Sanjeev Nevar and Swati Goel Sharma",
           moderator: "आचार्य अंकुर आर्य",
           speakers: ["संजीव नेवर", "स्वाति गोयल शर्मा"],
         },
         {
+          sessionNo: 5,
           time: "9:00 PM – 10:30 PM",
           title: "Open House with Vinay Arya",
           moderator: "कृतेश पटेल",
@@ -260,6 +272,7 @@ const Schedule = () => {
       date: "1 नवम्बर 2025",
       sessions: [
         {
+          sessionNo: 1,
           time: "8:30 AM – 10:00 AM",
           title: "युवा सत्र – सनातन धर्म में आर्य समाज का योगदान",
           moderator: "शालिनि आर्या",
@@ -294,6 +307,7 @@ const Schedule = () => {
           ],
         },
         {
+          sessionNo: 2,
           time: "10:15 AM – 1:00 PM",
           title: "आग की धार पर आर्य समाज – एक क्रांतिकारी आन्दोलन का इतिहास",
           moderator: "आचार्य योगेश वैदिक",
@@ -337,6 +351,7 @@ const Schedule = () => {
           ],
         },
         {
+          sessionNo: 3,
           time: "1:15 PM – 3:00 PM",
           title:
             "Open House – उत्क्रान्ति का मिथक – आधुनिक विज्ञान की सबसे बड़ी कहानी",
@@ -349,6 +364,7 @@ const Schedule = () => {
           ],
         },
         {
+          sessionNo: 4,
           time: "3:30 PM – 4:45 PM",
           title: "Open House – दलित, आम्बेडकर और आर्य समाज",
           moderator: "कृतेश पटेल",
@@ -359,12 +375,14 @@ const Schedule = () => {
           ],
         },
         {
+          sessionNo: 5,
           time: "5:00 PM – 7:00 PM",
           title: "Open House – अद्वैत, द्वैतवाद – एक चर्चा",
           moderator: "विशाल चौरसिया",
-          speakers: ["विठोबा आचार्य", "कृतेश पटेल"],
+          speakers: ["रामनाथ झा", "कृतेश पटेल", "विठोबा आचार्य"],
         },
         {
+          sessionNo: 6,
           time: "7:30 PM – 9:00 PM",
           title:
             "Live Discussion – OTT और सोशल मीडिया – आज़ादी की आड़ में अश्लीलता का जाल",
@@ -378,6 +396,7 @@ const Schedule = () => {
           ],
         },
         {
+          sessionNo: 7,
           time: "9:15 PM – 10:30 PM",
           title: "Live Discussion – हिन्दी बनाम अन्य भाषा",
           moderator: "नेहा राजपूत",
@@ -396,15 +415,16 @@ const Schedule = () => {
       date: "2 नवम्बर 2025",
       sessions: [
         {
+          sessionNo: 1,
           time: "8:30 AM – 10:00 AM",
           title: "भारतीय पुरातत्व का इतिहास",
           moderator: "डॉ. गोविन्द मौर्य",
           speakers: [
+            "आचार्य प्रदीप जी",
             "आलोक झा",
             "कुलदीप विद्यार्थी",
             "शिव प्रताप सिंह",
             "मोहित गौड़",
-            "आचार्य प्रदीप जी",
           ],
           subtopics: [
             { topic: "क्या बौद्धकाल से पहले वेद नहीं थे?", speaker: "आलोक झा" },
@@ -427,6 +447,7 @@ const Schedule = () => {
           ],
         },
         {
+          sessionNo: 2,
           time: "10:15 AM – 1:15 PM",
           title: "विकृत इतिहास का शुद्धिकरण – भारत की वैदिक दृष्टि से समीक्षा",
           moderator: "डॉ. प्रचेतस",
@@ -470,6 +491,7 @@ const Schedule = () => {
           ],
         },
         {
+          sessionNo: 3,
           time: "1:30 PM – 3:00 PM",
           title: "भारत में हुआ नवजागरण और उनके पुरोधा",
           moderator: "हर्षप्रिय आर्य",
@@ -498,12 +520,14 @@ const Schedule = () => {
           ],
         },
         {
+          sessionNo: 4,
           time: "3:15 PM – 3:50 PM",
           title: "The Arya Identity: A Global Passport for the Modern Youth",
           moderator: "Hall No. 6",
           speakers: ["International Speakers"],
         },
         {
+          sessionNo: 5,
           time: "3:55 PM – 4:45 PM",
           title:
             "Mental Health and the Maharshi Model: An Arya Approach to Stress and Resilience",
@@ -511,12 +535,14 @@ const Schedule = () => {
           speakers: ["Mental Health Experts"],
         },
         {
+          sessionNo: 6,
           time: "5:00 PM – 6:30 PM",
           title: "वर्तमान समय में आरक्षण की उपादेयता",
           moderator: "कार्तिक डिकोडेड",
           speakers: ["कृतेश पटेल", "अंकुर आर्य", "कार्तिक अय्यर"],
         },
         {
+          sessionNo: 7,
           time: "7:00 PM – 8:30 PM",
           title: "Open House on Present and Future of Arya Samaj",
           moderator: "कृतेश पटेल",
@@ -601,7 +627,10 @@ const Schedule = () => {
                     {/* Session Header */}
                     <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
                       <div className="flex items-center gap-3 mb-2 lg:mb-0">
-                        <div className="bg-orange-600 text-white px-3 py-1 rounded-full text-sm font-bold flex items-center gap-2">
+                        <div className="bg-orange-600 text-white px-3 py-1 rounded-full text-sm font-bold">
+                          सत्र {session.sessionNo}
+                        </div>
+                        <div className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm font-bold flex items-center gap-2">
                           <FaClock className="text-xs" />
                           {session.time}
                         </div>
