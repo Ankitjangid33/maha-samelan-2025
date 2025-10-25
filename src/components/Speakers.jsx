@@ -35,9 +35,19 @@ const Speakers = () => {
       image: "/ashish-bhartwansi.png",
     },
     {
+      name: "विनय आर्य",
+      specialty: "धर्म प्रचारक",
+      image: "/vinay-arya.png",
+    },
+    {
       name: "मोहित गौड़",
       specialty: "विज्ञान दर्शन",
       image: "/vigyan-darshan.png",
+    },
+    {
+      name: "कृतेश पटेल",
+      specialty: "ऋषि उवाच",
+      image: "/dharmsamrat.jpg",
     },
     {
       name: "डॉ. रामनाथ झा",
@@ -58,6 +68,26 @@ const Speakers = () => {
       name: "आचार्य प्रशान्त शर्मा",
       specialty: "दार्शनिक विचार",
       image: "/acharya-prashant.png",
+    },
+    {
+      name: "आचार्य योगेश भारद्वाज",
+      specialty: "वैदिक विद्वान",
+      image: "/yogesh-bhardwaj.jpg",
+    },
+    {
+      name: "स्वामी विवेकानन्द परिव्राजक",
+      specialty: "वैदिक विद्वान",
+      image: "/parivajak-ji.jpg",
+    },
+    {
+      name: "आचार्य योगेश वैदिक",
+      specialty: "वैदिक विद्वान",
+      image: "/yogesh -vaidic .jpg",
+    },
+    {
+      name: "स्वामी सच्चिदानंद",
+      specialty: "वैदिक विद्वान",
+      image: "/sachitanand.jpg",
     },
     {
       name: "अंकित यादव",
@@ -98,11 +128,6 @@ const Speakers = () => {
       name: "लक्ष्य लकेय",
       specialty: "Lakshya Speaks",
       image: "/lakshay-speaks.png",
-    },
-    {
-      name: "कृतेश पटेल",
-      specialty: "ऋषि उवाच",
-      image: "/dharmsamrat.jpg",
     },
     {
       name: "संजीव नेवर",
@@ -153,22 +178,6 @@ const Speakers = () => {
       name: "डॉ. गोविन्द मौर्य",
       specialty: "पुरातत्व विशेषज्ञ",
       image: "/profGmorya.jpg",
-    },
-    {
-      name: "विनय आर्य",
-      specialty: "धर्म प्रचारक",
-      image: "/vinay-arya.png",
-    },
-    {
-      name: "स्वामी विवेकानन्द परिव्राजक",
-      specialty: "वैदिक विद्वान",
-      image: "/parivajak-ji.jpg",
-    },
-
-    {
-      name: "उत्कर्ष सिंह",
-      specialty: "विकासवाद विशेषज्ञ",
-      image: "/utkarsh.jpeg",
     },
     {
       name: "आलोक झा",
@@ -231,9 +240,9 @@ const Speakers = () => {
       image: "/manasvi-arya.jpg",
     },
     {
-      name: "आचार्य योगेश वैदिक",
-      specialty: "वैदिक विद्वान",
-      image: "/yogesh -vaidic .jpg",
+      name: "उत्कर्ष सिंह",
+      specialty: "विकासवाद विशेषज्ञ",
+      image: "/utkarsh.jpeg",
     },
     {
       name: "डॉ. आयुषी राणा",
@@ -266,11 +275,6 @@ const Speakers = () => {
       image: "/titiksha-arya.jpg",
     },
     {
-      name: "स्वामी सच्चिदानंद",
-      specialty: "वैदिक विद्वान",
-      image: "/sachitanand.jpg",
-    },
-    {
       name: "तुफैल चतुर्वेदी",
       specialty: "साहित्यकार एवं विद्वान ",
       image: "/chaturvedi.png",
@@ -281,9 +285,164 @@ const Speakers = () => {
       image: "/shrutant.jpg",
     },
     {
-      name: "आचार्य योगेश भारद्वाज",
-      स्पैशल्टी: "वैदिक विद्वान",
-      image: "/yogesh-bhardwaj.jpg",
+      name: "आचार्या शीतला आर्या",
+      specialty: "वैदिक विदुषी",
+      image: "/shitala -arya.jpg",
+    },
+    {
+      name: "आचार्या आर्याशा आर्या",
+      specialty: "युवा वैदिक विदुषी",
+      image: "/aryasha.jpg",
+    },
+    {
+      name: "डॉ. सत्यप्रिय",
+      specialty: "वैदिक विद्वान",
+      image: "/satyapriya.jpg",
+    },
+    {
+      name: "शैलेश बिरे",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "निर्भय आर्य",
+      specialty: "युवा प्रचारक",
+      image: "/Nirbhay-arya.jpg",
+    },
+    {
+      name: "कैथरिन कुमार",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "विमल वेलानी",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "रत्न कंगाल",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "नीरज रामसमूज",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "ऋषि भंडारी",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "प्रशांता सूत्रधार",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "अंशिता रासबिहारी",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "भुवनेश खोसला",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "नेहा आर्या",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "विश्रुत आर्य",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "सुदीप गिरी ",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "सुधीर वेलनी",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "राजनन्दिनी रामतुहल ",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "ममता आर्या",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "संजय सूद",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "राजवीर अवतार",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "विठोबा आचार्य",
+      specialty: "विदेशी विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "कुमार उत्कर्ष",
+      specialty: "युवा प्रचारक",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "मोक्षराज आर्य ",
+      specialty: "---",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "आचार्य प्रदीप",
+      specialty: "वैदिक विद्वान",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "मेधावनी गर्ग",
+      specialty: "-----",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "जयादित्य चक्रवरती",
+      specialty: "युवा प्रचारक",
+      image: "/chakravarti.jpg",
+    },
+    {
+      name: "महेंद्र आर्य",
+      specialty: "-------",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "संदीप वेदालंकार",
+      specialty: "-------",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "सतीश सक्सेना",
+      specialty: "-------",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "अखिल तनेजा",
+      specialty: "-------",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "मेधावनी गर्ग",
+      specialty: "-------",
+      image: "/default-profile.svg",
     },
   ];
 
@@ -291,7 +450,6 @@ const Speakers = () => {
     "आचार्य अग्निव्रत नैष्ठिक",
     "आचार्य आशीष (जिंद)",
     "आचार्य आर्याशा",
-    "आचार्य प्रदीप जी",
     "आचार्य प्रशान्त शर्मा",
     "आचार्य योगेश वैदिक",
     "आचार्या शीतल",
@@ -312,7 +470,6 @@ const Speakers = () => {
     "डॉ. महिम तिवारी",
     "डॉ. रामचन्द्र",
     "डॉ. विवेक आर्य",
-    "डॉ. सत्यप्रिय",
   ];
 
   const toggleCategory = (categoryIndex) => {
@@ -363,7 +520,6 @@ const Speakers = () => {
         "मोक्षराज आर्य",
         "संदीप वेदालङ्कार",
         "अमरजीत विद्यार्थी",
-        "विठोबा आचार्य",
       ],
       color: "from-green-50 to-teal-50",
       icon: FaUsers,
