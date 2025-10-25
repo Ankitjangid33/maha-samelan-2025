@@ -146,7 +146,7 @@ const Hero = () => {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 lg:gap-6 xl:gap-8 mb-6 sm:mb-8 lg:mb-12 px-4 sm:px-2">
             <div className="bg-white/10 rounded-lg lg:rounded-xl p-3 sm:p-4 lg:p-6 xl:p-8 text-center hover:bg-white/15 transition-colors">
               <div className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-yellow-300 mb-1 lg:mb-2">
-                80+
+                90+
               </div>
               <div className="text-xs sm:text-sm lg:text-base xl:text-lg text-orange-200 leading-tight">
                 विशेषज्ञ वक्ता

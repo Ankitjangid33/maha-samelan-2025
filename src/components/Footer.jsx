@@ -134,7 +134,7 @@ const Footer = () => {
                   <FaUsers />
                 </div>
                 <h5 className="font-semibold text-orange-300 mb-2">
-                  80+ विशेषज्ञ वक्ता
+                  90+ विशेषज्ञ वक्ता
                 </h5>
                 <p className="text-gray-400 text-xs sm:text-sm">
                   देश-विदेश के प्रतिष्ठित विद्वान और विचारक

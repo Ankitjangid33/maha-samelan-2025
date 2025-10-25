@@ -19,7 +19,7 @@ const EventDetails = () => {
 
   const features = [
     {
-      title: "80+ विशेषज्ञ वक्ता",
+      title: "90+ विशेषज्ञ वक्ता",
       description: "देश-विदेश के 80 से अधिक वक्ताओं एवं विचारकों का मार्गदर्शन",
       icon: FaUsers,
       color: "from-blue-500 to-blue-600",

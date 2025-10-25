@@ -42,7 +42,7 @@ const Speakers = () => {
     {
       name: "मोहित गौड़",
       specialty: "विज्ञान दर्शन",
-      image: "/vigyan-darshan.png",
+      image: "/मोहित-g.jpg",
     },
     {
       name: "कृतेश पटेल",
@@ -416,7 +416,7 @@ const Speakers = () => {
     },
     {
       name: "मेधावनी गर्ग",
-      specialty: "-----",
+      specialty: "वैदिक विद्वान",
       image: "/default-profile.svg",
     },
     {
@@ -436,11 +436,6 @@ const Speakers = () => {
     },
     {
       name: "अखिल तनेजा",
-      specialty: "-------",
-      image: "/default-profile.svg",
-    },
-    {
-      name: "मेधावनी गर्ग",
       specialty: "-------",
       image: "/default-profile.svg",
     },
@@ -501,7 +496,6 @@ const Speakers = () => {
       title: "",
       speakers: [
         "प्रियांशु सेठ",
-        "मेधावनी गर्ग",
         "श्रुतान्त आर्य",
         "शालिनि आर्या",
         "जयादित्य चक्रवर्ती",
