@@ -173,8 +173,22 @@ const SocialInfluencers = () => {
       name: "संदीपन रॉय",
       channel: "Rishi Mantavya",
       icon: GiMicroscope,
-      image: "/Vedveer Arya.png",
+      image: "/sandeepan-roy.png",
       channelUrl: "https://www.youtube.com/@sandipanroyy",
+    },
+    {
+      name: "प्रीतम आर्य",
+      channel: "आदिकाल आर्य",
+      icon: GiMicroscope,
+      image: "/adikal-arya.png",
+      channelUrl: "https://www.youtube.com/@AdikalArya",
+    },
+    {
+      name: "अमित किल्होर",
+      channel: "amit kilhor",
+      icon: GiMicroscope,
+      image: "/amit-khilor.png",
+      channelUrl: "https://www.youtube.com/@AdikalArya",
     },
   ];
 

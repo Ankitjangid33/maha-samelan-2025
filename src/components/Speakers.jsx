@@ -147,12 +147,12 @@ const Speakers = () => {
     {
       name: "स्वामी ओमानन्द परिव्राजक",
       specialty: "धर्म प्रचारक",
-      image: "/default-profile.svg",
+      image: "/ओमानन्द-parivajak .jpg",
     },
     {
       name: "डॉ. गोविन्द मौर्य",
       specialty: "पुरातत्व विशेषज्ञ",
-      image: "/default-profile.svg",
+      image: "/profGmorya.jpg",
     },
     {
       name: "विनय आर्य",
@@ -161,7 +161,7 @@ const Speakers = () => {
     },
     {
       name: "स्वामी विवेकानन्द परिव्राजक",
-      specialty: "वरिष्ठ वैदिक विद्वान",
+      specialty: "वैदिक विद्वान",
       image: "/parivajak-ji.jpg",
     },
 
@@ -178,7 +178,7 @@ const Speakers = () => {
     {
       name: "कुलदीप विद्यार्थी",
       specialty: "इतिहासकार",
-      image: "/default-profile.svg",
+      image: "/kuldep-arya.jpg",
     },
     {
       name: "शिव प्रताप सिंह",
@@ -193,7 +193,7 @@ const Speakers = () => {
     {
       name: "हर्षप्रिय आर्य",
       specialty: "नवजागरण विशेषज्ञ",
-      image: "/default-profile.svg",
+      image: "/harsh-priya.jpg",
     },
     {
       name: "दयानन्द शास्त्री",
@@ -212,18 +212,58 @@ const Speakers = () => {
     },
     {
       name: "डॉ. रामचन्द्र",
-      specialty: "वरिष्ठ संस्कृत विद्वान",
+      specialty: "वैदिक विद्वान",
       image: "/dr-ramchandra.jpg",
     },
     {
       name: "छवि आर्य",
-      specialty: "युवा धर्म प्रचारक",
+      specialty: "सांस्कृतिक और सामाजिक प्रवक्ता",
       image: "/chavi-arya.jpg",
     },
     {
       name: "आदिकाल आर्य",
       specialty: "युवा धर्म  प्रचारक",
       image: "/adikal-arya.png",
+    },
+    {
+      name: "मनस्वी आर्य",
+      specialty: "युवा धर्म प्रचारक",
+      image: "/manasvi-arya.jpg",
+    },
+    {
+      name: "आचार्य योगेश वैदिक",
+      specialty: "वैदिक विद्वान",
+      image: "/yogesh -vaidic .jpg",
+    },
+    {
+      name: "डॉ. आयुषी राणा",
+      specialty: "युवा वैदिक विदुषी",
+      image: "/ayushi -rana .jpg",
+    },
+    {
+      name: "डॉ. प्रतिभा आर्या",
+      specialty: "वैदिक विदुषी",
+      image: "/dr-pratibha .jpg",
+    },
+    {
+      name: "रोहित आर्य",
+      specialty: "युवा वैदिक विद्वान",
+      image: "/rohit -arya.jpg",
+    },
+    {
+      name: "डॉ. प्रियंका आर्या",
+      specialty: "वैदिक विदुषी",
+      image: "/dr-priya-arya.jpg",
+    },
+    {
+      name: "डॉ.प्रचेतस",
+      specialty: "वैदिक विद्वान",
+      image: "/डॉ प्रचेतस.jpg",
+    },
+    {
+      name: "आचार्या तितिक्षा आर्या",
+      specialty: "वैदिक विदुषी",
+      image: "/titiksha-arya.jpg",
     },
   ];
 
@@ -287,7 +327,6 @@ const Speakers = () => {
       speakers: [
         "तितिक्षा आर्या",
         "वेदवीर आर्य",
-        "डॉ. आयुषी राणा",
         "सांदिपन रॉय",
         "सार्थक महाजन",
         "प्रियांशु सेठ",
