@@ -22,132 +22,159 @@ import {
 } from "react-icons/gi";
 
 const SocialInfluencers = () => {
+  const handleChannelClick = (channelUrl) => {
+    if (channelUrl) {
+      window.open(channelUrl, "_blank", "noopener,noreferrer");
+    }
+  };
+
   const influencers = [
     {
       name: "विशाल चौरसिया",
       channel: "Hyper Quest",
       icon: GiMicroscope,
       image: "/hyper-quest.png",
+      channelUrl: "https://www.youtube.com/@HyperQuest",
     },
     {
       name: "आशीष भारतवंशी",
       channel: "Ashish Bharatvanshi",
       icon: FaBullseye,
       image: "/ashish-bhartwansi.png",
+      channelUrl: "https://www.youtube.com/@ashishbharatvanshi",
     },
     {
       name: "मोहित गौड़",
       channel: "विज्ञान दर्शन",
       icon: FaBrain,
       image: "/vigyan-darshan.png",
+      channelUrl: "https://www.youtube.com/@Vigyandarshan",
     },
     {
       name: "संदीप आर्य",
       channel: "Om Aryavart",
       icon: FaOm,
       image: "./sandeep-arya.png",
+      channelUrl: "https://www.youtube.com/@omaryavart539",
     },
     {
       name: "आचार्य अग्निव्रत नैष्ठिक",
       channel: "Vaidic Physics",
       icon: GiAtom,
       image: "/acharya-agnivrat.png",
+      channelUrl: "https://www.youtube.com/@vaidicphysics",
     },
     {
       name: "आचार्य अंकुर आर्य",
       channel: "Satya Sanatan",
       icon: FaOm,
       image: "/AcharyaAnkurArya.jpg",
+      channelUrl: "https://www.youtube.com/@satyasanatanofficial",
     },
     {
       name: "आचार्य प्रशान्त शर्मा",
       channel: "Darshnik Vichar",
       icon: FaBrain,
       image: "/acharya-prashant.png",
+      channelUrl: "https://www.youtube.com/@darshnikvichar",
     },
     {
       name: "संजीव नेवर",
       channel: "Gems of Bollywood",
       icon: FaFilm,
       image: "/gemes-of-bollywood.png",
+      channelUrl: "https://www.youtube.com/@GemsOfBollywood",
     },
     {
       name: "अजीत भारती",
       channel: "Ajeet Bharti",
       icon: GiMicroscope,
       image: "/ajeet-bharti.jpeg",
+      channelUrl: "https://www.youtube.com/@AjeetBharti",
     },
     {
       name: "पुलकित त्यागी",
       channel: "Pulkit Tyagi",
       icon: GiCrossedSwords,
       image: "/pulkit-tyagi.png",
+      channelUrl: "https://www.youtube.com/@pulkitnpc",
     },
     {
       name: "स्वाति गोयल शर्मा",
       channel: "Gems of Bollywood",
       icon: FaTheaterMasks,
       image: "/gemes-of-bollywood.png",
+      channelUrl: "https://www.youtube.com/@GemsOfBollywood",
     },
     {
       name: "अंकित यादव",
       channel: "Ankityadav Writes",
       icon: FaPenNib,
       image: "/ankit-yadav.png",
+      channelUrl: "https://www.instagram.com/ankityadav_writes/",
     },
     {
       name: "आर्यवीरा",
       channel: "aaryaveera",
       icon: GiCrossedSwords,
       image: "/aryaveera.png",
+      channelUrl: "https://www.youtube.com/@aaryaveeraa",
     },
     {
       name: "छवि सनातनी",
       channel: "Chhavi Sanatani",
       icon: GiLotusFlower,
       image: "/chavi-sanatani.jpg",
+      channelUrl: "https://www.instagram.com/mission_jagriti_/",
     },
     {
       name: "कार्तिक यादव",
       channel: "Kartik Decoded",
       icon: FaSearch,
       image: "./kartik-decoded.png",
+      channelUrl: "https://www.youtube.com/@DecodingwithKartik",
     },
     {
       name: "डॉ. महिम तिवारी",
       channel: "Mahim Tiwari",
       icon: FaBook,
       image: "/mahim-tiwari.png",
+      channelUrl: "https://www.youtube.com/@DrMahimTiwari",
     },
     {
       name: "लक्ष्य लकेय",
       channel: "Lakshya Speaks",
       icon: FaMicrophone,
       image: "/lakshay-speaks.png",
+      channelUrl: "https://www.youtube.com/@LakhshyaSpeaks",
     },
     {
       name: "कृतेश पटेल",
       channel: "ऋषि उवाच",
       icon: GiWizardStaff,
       image: "/dharmsamrat.jpg",
+      channelUrl: "https://www.youtube.com/@RishiUvachOfficial",
     },
     {
       name: "संजय सिंह",
       channel: "Desi Tarzan official",
       icon: GiMicroscope,
       image: "/sanjay-sing.png",
+      channelUrl: "https://www.youtube.com/@DesiTarzanOfficial",
     },
     {
       name: "सार्थक महाजन",
       channel: "सनातन संचयन",
       icon: GiMicroscope,
       image: "/sarthak-mahajan.jpg",
+      channelUrl: "https://www.youtube.com/@sanatansanchayan",
     },
     {
       name: "संदीपन रॉय",
       channel: "Rishi Mantavya",
       icon: GiMicroscope,
       image: "/Vedveer Arya.png",
+      channelUrl: "https://www.youtube.com/@sandipanroyy",
     },
   ];
 
@@ -198,7 +225,8 @@ const SocialInfluencers = () => {
             {influencers.map((influencer, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg sm:rounded-xl lg:rounded-2xl p-3 sm:p-4 md:p-6 lg:p-8 shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-blue-300 group"
+                className="bg-white rounded-lg sm:rounded-xl lg:rounded-2xl p-3 sm:p-4 md:p-6 lg:p-8 shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-blue-300 group cursor-pointer"
+                onClick={() => handleChannelClick(influencer.channelUrl)}
               >
                 <div className="text-center">
                   <div className="w-14 h-14 xs:w-16 xs:h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28 mx-auto mb-3 sm:mb-4 lg:mb-6 rounded-full overflow-hidden border-3 sm:border-4 border-blue-200 group-hover:border-blue-300 transition-colors">
