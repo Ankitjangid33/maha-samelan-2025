@@ -21,10 +21,9 @@ const Speakers = () => {
     },
     {
       name: "संजय कुमार",
-      specialty: " वैदिक विद्वान",
+      specialty: "वैदिक विद्वान",
       image: "/sanjayji.png",
     },
-
     {
       name: "विशाल चौरसिया",
       specialty: "Hyper Quest",
@@ -46,6 +45,11 @@ const Speakers = () => {
       image: "/dr.ramnath-jha.png",
     },
     {
+      name: "आचार्य आशीष आर्य",
+      specialty: "अंतरराष्ट्रीय वैदिक विद्वान",
+      image: "/ashish-acharya.jpg",
+    },
+    {
       name: "संदीप आर्य",
       specialty: "Om Aryavart",
       image: "/sandeep-arya.png",
@@ -65,7 +69,11 @@ const Speakers = () => {
       specialty: "वैदिक विद्वान",
       image: "/dr-vivek-arya.jpg",
     },
-    { name: "आर्यवीरा", specialty: "aaryaveera", image: "/aryaveera.png" },
+    {
+      name: "आर्यवीरा",
+      specialty: "aaryaveera",
+      image: "/aryaveera.png",
+    },
     {
       name: "छवि सनातनी",
       specialty: "Chhavi Sanatani",
@@ -82,11 +90,20 @@ const Speakers = () => {
       image: "/mahim-tiwari.png",
     },
     {
+      name: "कार्तिक अय्यर",
+      specialty: "वेद और विज्ञान",
+      image: "/kartik-iyer.jpg",
+    },
+    {
       name: "लक्ष्य लकेय",
       specialty: "Lakshya Speaks",
       image: "/lakshay-speaks.png",
     },
-    { name: "कृतेश पटेल", specialty: "ऋषि उवाच", image: "/rishi-uvach.png" },
+    {
+      name: "कृतेश पटेल",
+      specialty: "ऋषि उवाच",
+      image: "/dharmsamrat.jpg",
+    },
     {
       name: "संजीव नेवर",
       specialty: "Gems of Bollywood",
@@ -98,36 +115,116 @@ const Speakers = () => {
       image: "/gemes-of-bollywood.png",
     },
     {
-      name: "डॉ. विवेक आर्य",
-      specialty: "आर्य समाज इतिहास",
-      image: "/dr.vivek-arya.png",
+      name: "अजीत भारती",
+      specialty: "पत्रकार और लेखक",
+      image: "/ajeet-bharti.jpeg",
     },
     {
-      name: "डॉ. रामनाथ झा",
-      specialty: "संस्कृत विशेषज्ञ",
-      image: "/dr.ramnath-jha.png",
+      name: "पुलकित त्यागी",
+      specialty: "युवा पत्रकार",
+      image: "/pulkit-tyagi.png",
     },
     {
-      name: "नया वक्ता 1",
-      specialty: "विशेषज्ञता 1",
-      image: "/speaker1.png",
+      name: "संदीपन रॉय",
+      specialty: "विचारक",
+      image: "/sandeepan-roy.png",
     },
     {
-      name: "नया वक्ता 2",
-      specialty: "विशेषज्ञता 2",
-      image: "/speaker2.png",
+      name: "सार्थक महाजन",
+      specialty: "युवा विचारक",
+      image: "/sarthak-mahajan.jpg",
     },
-    { name: "स्वामी ओमानन्द परिव्राजक", specialty: "धर्म प्रचारक" },
-    { name: "डॉ. गोविन्द मौर्य", specialty: "पुरातत्व विशेषज्ञ" },
-    { name: "विनय आर्य", specialty: "धर्म प्रचारक" },
-    { name: "कार्तिक अय्यर", specialty: "विज्ञान विशेषज्ञ" },
-    { name: "उत्कर्ष सिंह", specialty: "विकासवाद विशेषज्ञ" },
-    { name: "संजय कुमार", specialty: "शोधकर्ता" },
-    { name: "आलोक झा", specialty: "पुरातत्व विशेषज्ञ" },
-    { name: "कुलदीप विद्यार्थी", specialty: "इतिहासकार" },
-    { name: "शिव प्रताप सिंह", specialty: "पांडुलिपि विशेषज्ञ" },
-    { name: "अनुज आर्य", specialty: "धर्म इतिहासकार" },
-    { name: "हर्षप्रिय आर्य", specialty: "नवजागरण विशेषज्ञ" },
+    {
+      name: "वेदवीर आर्य",
+      specialty: "धर्म प्रचारक",
+      image: "/Vedveer Arya.png",
+    },
+    {
+      name: "संजय सिंह",
+      specialty: "सामाजिक कार्यकर्ता",
+      image: "/sanjay-sing.png",
+    },
+    {
+      name: "स्वामी ओमानन्द परिव्राजक",
+      specialty: "धर्म प्रचारक",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "डॉ. गोविन्द मौर्य",
+      specialty: "पुरातत्व विशेषज्ञ",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "विनय आर्य",
+      specialty: "धर्म प्रचारक",
+      image: "/vinay-arya.png",
+    },
+    {
+      name: "स्वामी विवेकानन्द परिव्राजक",
+      specialty: "वरिष्ठ वैदिक विद्वान",
+      image: "/parivajak-ji.jpg",
+    },
+
+    {
+      name: "उत्कर्ष सिंह",
+      specialty: "विकासवाद विशेषज्ञ",
+      image: "/utkarsh.jpeg",
+    },
+    {
+      name: "आलोक झा",
+      specialty: "पुरातत्व विशेषज्ञ",
+      image: "/Alok-jha.jpg",
+    },
+    {
+      name: "कुलदीप विद्यार्थी",
+      specialty: "इतिहासकार",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "शिव प्रताप सिंह",
+      specialty: "पांडुलिपि विशेषज्ञ",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "आचार्य अनुज शास्त्री",
+      specialty: "युवा वैदिक प्रवक्ता ",
+      image: "/anuj-arya.jpg",
+    },
+    {
+      name: "हर्षप्रिय आर्य",
+      specialty: "नवजागरण विशेषज्ञ",
+      image: "/default-profile.svg",
+    },
+    {
+      name: "दयानन्द शास्त्री",
+      specialty: "आर्य लेखक एवं विद्वान",
+      image: "/dyanand-shastri.jpg",
+    },
+    {
+      name: "अमरजीत विद्यार्थी",
+      specialty: "युवा विद्वान",
+      image: "/amar-jeet.jpg",
+    },
+    {
+      name: "नीतिका निगम",
+      specialty: "युवा वैदिक प्रचारक",
+      image: "/nitika-nigam.jpg",
+    },
+    {
+      name: "डॉ. रामचन्द्र",
+      specialty: "वरिष्ठ संस्कृत विद्वान",
+      image: "/dr-ramchandra.jpg",
+    },
+    {
+      name: "छवि आर्य",
+      specialty: "युवा धर्म प्रचारक",
+      image: "/chavi-arya.jpg",
+    },
+    {
+      name: "आदिकाल आर्य",
+      specialty: "युवा धर्म  प्रचारक",
+      image: "/adikal-arya.png",
+    },
   ];
 
   const acharyas = [
@@ -203,7 +300,6 @@ const Speakers = () => {
         "नेहा राजपूत",
         "मनस्वी",
         "महेन्द्र आर्य",
-        "दयानन्द शास्त्री",
         "सुन्दर आर्य",
         "सतीश सक्सेना",
         "निर्भय आर्य",
@@ -252,7 +348,7 @@ const Speakers = () => {
               मुख्य वक्ता
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 sm:gap-4 md:gap-6">
-              {speakers.slice(0, 18).map((speaker, index) => (
+              {speakers.map((speaker, index) => (
                 <div
                   key={index}
                   className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-orange-200 group aspect-square"
@@ -354,7 +450,12 @@ const Speakers = () => {
           {/* Summary Card */}
           <div className="bg-gradient-to-r from-orange-600 to-amber-600 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 text-white text-center">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4">
-              80+ विशेषज्ञ वक्ता
+              {speakers.length +
+                categories.reduce(
+                  (total, cat) => total + cat.speakers.length,
+                  0
+                )}
+              + विशेषज्ञ वक्ता
             </h3>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-orange-100 mb-4 sm:mb-6 leading-relaxed">
               धर्म, विज्ञान, समाज, राष्ट्र और विश्व के विविध विषयों के विशेषज्ञ

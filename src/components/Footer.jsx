@@ -193,6 +193,17 @@ const Footer = () => {
             <p className="text-gray-500 text-xs sm:text-sm mt-2">
               युवा आर्य समाज द्वारा आयोजित | Where Ideas Turn into Actions
             </p>
+            <p className="text-gray-500 text-xs sm:text-sm mt-2">
+              Design and Developed by{" "}
+              <a
+                href="https://www.mgtechnicals.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-orange-400 hover:text-orange-300 transition-colors duration-300 underline"
+              >
+                Mg Technicals
+              </a>
+            </p>
           </div>
         </div>
       </div>

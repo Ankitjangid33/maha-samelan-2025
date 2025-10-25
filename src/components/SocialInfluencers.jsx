@@ -78,6 +78,12 @@ const SocialInfluencers = () => {
       image: "/ajeet-bharti.jpeg",
     },
     {
+      name: "पुलकित त्यागी",
+      channel: "Pulkit Tyagi",
+      icon: GiCrossedSwords,
+      image: "/pulkit-tyagi.png",
+    },
+    {
       name: "स्वाति गोयल शर्मा",
       channel: "Gems of Bollywood",
       icon: FaTheaterMasks,
@@ -123,7 +129,7 @@ const SocialInfluencers = () => {
       name: "कृतेश पटेल",
       channel: "ऋषि उवाच",
       icon: GiWizardStaff,
-      image: "/rishi-uvach.png",
+      image: "/dharmsamrat.jpg",
     },
     {
       name: "संजय सिंह",
