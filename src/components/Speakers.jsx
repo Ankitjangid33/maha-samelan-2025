@@ -320,6 +320,11 @@ const Speakers = () => {
       image: "/मोक्षराज.jpg",
     },
     {
+      name: "प्रियांशु सेठ",
+      specialty: "युवा विद्वान",
+      image: "/priyanshu-seth.jpg",
+    },
+    {
       name: "शैलेश बिरे",
       specialty: "विदेशी विद्वान",
       image: "/default-profile.svg",
@@ -501,7 +506,6 @@ const Speakers = () => {
     {
       title: "",
       speakers: [
-        "प्रियांशु सेठ",
         "श्रुतान्त आर्य",
         "शालिनि आर्या",
         "जयादित्य चक्रवर्ती",
