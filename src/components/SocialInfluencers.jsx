@@ -188,7 +188,7 @@ const SocialInfluencers = () => {
       channel: "amit kilhor",
       icon: GiMicroscope,
       image: "/amit-khilor.png",
-      channelUrl: "https://www.youtube.com/@AdikalArya",
+      channelUrl: "https://www.youtube.com/@amitkilhor",
     },
   ];
 
