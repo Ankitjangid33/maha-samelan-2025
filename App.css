@@ -32,3 +32,121 @@
 .gradient-purple-indigo {
   background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
 }
+
+/* Custom Scrollbar Styles */
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+.scrollbar-thumb-orange-300::-webkit-scrollbar-thumb {
+  background-color: #fdba74;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.scrollbar-track-orange-100::-webkit-scrollbar-track {
+  background-color: #fed7aa;
+  border-radius: 6px;
+  margin: 4px;
+}
+
+.hover\:scrollbar-thumb-orange-400:hover::-webkit-scrollbar-thumb {
+  background-color: #fb923c;
+}
+
+.scrollbar-thumb-orange-300::-webkit-scrollbar-thumb:hover {
+  background-color: #fb923c;
+}
+
+/* Smooth scrolling */
+.overflow-x-auto {
+  scroll-behavior: smooth;
+}
+
+/* Speaker scroll container specific styles */
+.speakers-scroll-container {
+  scrollbar-width: thin;
+  scrollbar-color: #fdba74 #fed7aa;
+}
+
+.speakers-scroll-container::-webkit-scrollbar {
+  height: 12px;
+}
+
+.speakers-scroll-container::-webkit-scrollbar-track {
+  background: #fed7aa;
+  border-radius: 8px;
+  margin: 0 8px;
+}
+
+.speakers-scroll-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #fdba74, #fb923c);
+  border-radius: 8px;
+  border: 2px solid #fed7aa;
+}
+
+.speakers-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, #fb923c, #f97316);
+}
+
+/* Speakers Carousel Animation */
+@keyframes scroll-infinite {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-scroll {
+  animation: scroll-infinite 20s linear infinite !important;
+  width: max-content !important;
+}
+
+/* Debug animation - make it more visible */
+.carousel-scroll:hover {
+  animation-play-state: paused !important;
+}
+
+/* Carousel interaction styles */
+.carousel-container {
+  cursor: grab;
+}
+
+.carousel-container:active {
+  cursor: grabbing;
+}
+
+.carousel-container.dragging {
+  cursor: grabbing;
+}
+
+.carousel-container.dragging * {
+  pointer-events: none;
+  user-select: none;
+}
+
+
+
+/* Fade in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out forwards;
+}

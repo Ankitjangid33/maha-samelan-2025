@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import EventDetails from "./components/EventDetails";
 import Schedule from "./components/Schedule";
 import Speakers from "./components/Speakers";
+import SpeakersCarousel from "./components/SpeakersCarousel";
 // import AllSpeakers from "./components/AllSpeakers";
 import SocialInfluencers from "./components/SocialInfluencers";
 import Organizers from "./components/Organizers";
@@ -34,6 +35,7 @@ const App = () => {
       <Header />
       <main role="main">
         <Hero />
+        <SpeakersCarousel />
         <EventDetails />
         <Topics />
         <Schedule />
