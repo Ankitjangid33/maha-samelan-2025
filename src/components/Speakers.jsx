@@ -36,7 +36,7 @@ const Speakers = () => {
     },
     {
       name: "विनय आर्य",
-      specialty: "धर्म प्रचारक",
+      specialty: "वैदिक विद्वान",
       image: "/vinay-arya.png",
     },
     {
@@ -56,7 +56,7 @@ const Speakers = () => {
     },
     {
       name: "आचार्य आशीष आर्य",
-      specialty: "अंतरराष्ट्रीय वैदिक विद्वान",
+      specialty: "वैदिक विद्वान",
       image: "/ashish-acharya.jpg",
     },
     {
@@ -161,12 +161,12 @@ const Speakers = () => {
     },
     {
       name: "वेदवीर आर्य",
-      specialty: "धर्म प्रचारक",
+      specialty: "लेखक और इतिहासकार",
       image: "/Vedveer Arya.png",
     },
     {
       name: "संजय सिंह",
-      specialty: "सामाजिक कार्यकर्ता",
+      specialty: "देसी टार्ज़न",
       image: "/sanjay-sing.png",
     },
     {
@@ -176,7 +176,7 @@ const Speakers = () => {
     },
     {
       name: "डॉ. गोविन्द मौर्य",
-      specialty: "पुरातत्व विशेषज्ञ",
+      specialty: "भौतिक शास्त्री",
       image: "/profGmorya.jpg",
     },
     {
@@ -305,6 +305,21 @@ const Speakers = () => {
       image: "/satyapriya.jpg",
     },
     {
+      name: "आचार्य प्रदीप",
+      specialty: "वैदिक विद्वान",
+      image: "/आचार्य प्रदीप.jpg",
+    },
+    {
+      name: "मेधाविनी गर्ग",
+      specialty: "वैदिक विदुषी",
+      image: "/मेधाविनी गर्ग.jpg",
+    },
+    {
+      name: "डॉ. मोक्षराज",
+      specialty: "वैदिक विद्वान",
+      image: "/मोक्षराज.jpg",
+    },
+    {
       name: "शैलेश बिरे",
       specialty: "विदेशी विद्वान",
       image: "/default-profile.svg",
@@ -381,7 +396,7 @@ const Speakers = () => {
     },
     {
       name: "ममता आर्या",
-      specialty: "विदेशी विद्वान",
+      specialty: "वैदिक विदुषी",
       image: "/default-profile.svg",
     },
     {
@@ -409,16 +424,7 @@ const Speakers = () => {
       specialty: "---",
       image: "/default-profile.svg",
     },
-    {
-      name: "आचार्य प्रदीप",
-      specialty: "वैदिक विद्वान",
-      image: "/default-profile.svg",
-    },
-    {
-      name: "मेधावनी गर्ग",
-      specialty: "वैदिक विद्वान",
-      image: "/default-profile.svg",
-    },
+
     {
       name: "जयादित्य चक्रवर्ती",
       specialty: "युवा प्रचारक",
