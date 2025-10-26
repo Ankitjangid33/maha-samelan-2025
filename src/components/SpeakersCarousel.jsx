@@ -20,7 +20,7 @@ const SpeakersCarousel = () => {
     },
     {
       name: "संजय कुमार",
-      specialty: "वैदिक विद्वान",
+      specialty: "आयुर्वेदज्ञ",
       image: "/sanjayji.png",
     },
     {
