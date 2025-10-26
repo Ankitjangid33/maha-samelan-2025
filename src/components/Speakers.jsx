@@ -658,12 +658,7 @@ const Speakers = () => {
           {/* Summary Card */}
           <div className="bg-gradient-to-r from-orange-600 to-amber-600 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 text-white text-center">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4">
-              {speakers.length +
-                categories.reduce(
-                  (total, cat) => total + cat.speakers.length,
-                  0
-                )}
-              + विशेषज्ञ वक्ता
+              90 + विशेषज्ञ वक्ता
             </h3>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-orange-100 mb-4 sm:mb-6 leading-relaxed">
               धर्म, विज्ञान, समाज, राष्ट्र और विश्व के विविध विषयों के विशेषज्ञ

@@ -401,7 +401,7 @@ const SpeakersCarousel = () => {
               <span className="leading-tight">हमारे विशेषज्ञ वक्ता</span>
             </h2>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 mb-4 leading-relaxed">
-              देश-विदेश के {speakers.length}+ प्रतिष्ठित विद्वान और विचारक
+              देश-विदेश के 90+ प्रतिष्ठित विद्वान और विचारक
             </p>
           </div>
 
@@ -458,7 +458,7 @@ const SpeakersCarousel = () => {
           <div className="text-center mt-8 sm:mt-12">
             <div className="bg-gradient-to-r from-orange-600 to-amber-600 rounded-xl p-6 sm:p-8 text-white">
               <h3 className="text-2xl sm:text-3xl font-bold mb-3">
-                {speakers.length}+ विशेषज्ञ वक्ता
+                90+ विशेषज्ञ वक्ता
               </h3>
               <p className="text-orange-100 text-base sm:text-lg leading-relaxed">
                 धर्म, विज्ञान, समाज, राष्ट्र और विश्व के विविध विषयों के
