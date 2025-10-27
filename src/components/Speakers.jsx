@@ -186,7 +186,7 @@ const Speakers = () => {
     },
     {
       name: "कुलदीप विद्यार्थी",
-      specialty: "इतिहासकार",
+      specialty: "युवा विद्वान",
       image: "/kuldep-arya.jpg",
     },
     {
@@ -422,11 +422,11 @@ const Speakers = () => {
     {
       name: "कुमार उत्कर्ष",
       specialty: "युवा प्रचारक",
-      image: "/default-profile.svg",
+      image: "/kumar-utkarsh.jpeg",
     },
     {
       name: "मोक्षराज आर्य ",
-      specialty: "---",
+      specialty: "वैदिक विद्वान",
       image: "/default-profile.svg",
     },
 
@@ -437,17 +437,17 @@ const Speakers = () => {
     },
     {
       name: "महेंद्र आर्य",
-      specialty: "-------",
+      specialty: "वैदिक विद्वान",
       image: "/default-profile.svg",
     },
     {
       name: "सतीश सक्सेना",
-      specialty: "-------",
+      specialty: "वैदिक विद्वान",
       image: "/default-profile.svg",
     },
     {
       name: "अखिल तनेजा",
-      specialty: "-------",
+      specialty: "वैदिक विद्वान",
       image: "/default-profile.svg",
     },
   ];
