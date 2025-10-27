@@ -399,7 +399,7 @@ const Schedule = () => {
           sessionNo: 7,
           time: "9:00  PM – 10:30 PM",
           title: "Live Discussion – हिन्दी बनाम अन्य भाषा",
-          // moderator: "नेहा राजपूत",
+          moderator: "खुशविंदर आर्य",
           speakers: [
             "अंकुर आर्य",
             "अमरजीत विद्यार्थी",
@@ -630,11 +630,10 @@ const Schedule = () => {
                   setActiveDay(parseInt(day));
                   setExpandedSession(null);
                 }}
-                className={`px-4 sm:px-6 py-2 sm:py-3 rounded-full font-semibold transition-all duration-300 ${
-                  activeDay === parseInt(day)
+                className={`px-4 sm:px-6 py-2 sm:py-3 rounded-full font-semibold transition-all duration-300 ${activeDay === parseInt(day)
                     ? "bg-orange-600 text-white shadow-lg transform scale-105"
                     : "bg-white text-gray-700 hover:bg-orange-100 hover:scale-105 shadow-md"
-                }`}
+                  }`}
                 aria-pressed={activeDay === parseInt(day)}
               >
                 दिन {day}
@@ -802,11 +801,10 @@ const Schedule = () => {
                       setActiveDay(parseInt(day));
                       setExpandedSession(null);
                     }}
-                    className={`px-3 py-1 rounded-full text-sm transition-all ${
-                      activeDay === parseInt(day)
+                    className={`px-3 py-1 rounded-full text-sm transition-all ${activeDay === parseInt(day)
                         ? "bg-orange-600 text-white"
                         : "bg-gray-100 text-gray-600 hover:bg-orange-100"
-                    }`}
+                      }`}
                   >
                     {scheduleData[day].date}
                   </button>
