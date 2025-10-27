@@ -325,6 +325,16 @@ const Speakers = () => {
       image: "/priyanshu-seth.jpg",
     },
     {
+      name: "आर् विठोबाचार्य",
+      specialty: "दार्शनिक विद्वान",
+      image: "/vithoba-acharay.jpeg",
+    },
+    {
+      name: "कुमार उत्कर्ष",
+      specialty: "युवा प्रचारक",
+      image: "/kumar-utkarsh.jpeg",
+    },
+    {
       name: "शैलेश बिरे",
       specialty: "विदेशी विद्वान",
       image: "/default-profile.svg",
@@ -414,16 +424,7 @@ const Speakers = () => {
       specialty: "विदेशी विद्वान",
       image: "/default-profile.svg",
     },
-    {
-      name: "विठोबा आचार्य",
-      specialty: "दार्शनिक विद्वान",
-      image: "/default-profile.svg",
-    },
-    {
-      name: "कुमार उत्कर्ष",
-      specialty: "युवा प्रचारक",
-      image: "/kumar-utkarsh.jpeg",
-    },
+
     {
       name: "मोक्षराज आर्य ",
       specialty: "वैदिक विद्वान",
