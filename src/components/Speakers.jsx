@@ -320,6 +320,11 @@ const Speakers = () => {
       image: "/मोक्षराज.jpg",
     },
     {
+      name: "प्रोo विनय विद्यालंकाऱ",
+      specialty: "प्राचार्य, राजकीय महाविद्यालय",
+      image: "/vedalanakr.jpeg",
+    },
+    {
       name: "प्रियांशु सेठ",
       specialty: "युवा विद्वान",
       image: "/priyanshu-seth.jpg",
